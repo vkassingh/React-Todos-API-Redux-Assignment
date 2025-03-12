@@ -4,7 +4,7 @@
 This is a **React-based To-Do Application** that allows users to add, delete, and prioritize tasks. It integrates with the **OpenWeatherMap API** to fetch weather data for a specified city and displays it alongside each task. The application uses **Redux** for state management and follows best practices for code organization and scalability.
 
 ---
-
+## Deployed at https://reactreduxtodos.netlify.app/
 ## Features Implemented
 
 1. **Add Tasks**:
@@ -36,17 +36,10 @@ This is a **React-based To-Do Application** that allows users to add, delete, an
 
 ## Screenshots
 
-### 1. Login Page
-![Login Page](./screenshots/login.png)
-
-### 2. To-Do List with Weather Data
 ![To-Do List](./screenshots/todo-list.png)
 
-### 3. Add Task with City
-![Add Task](./screenshots/add-task.png)
 
-### 4. Delete Task
-![Delete Task](./screenshots/delete-task.png)
+
 
 ---
 
