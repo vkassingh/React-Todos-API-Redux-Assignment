@@ -1,14 +1,14 @@
-const API_KEY = YOUR_API_KEY; // Replace with your API key
+const API_KEY = "c074857eaef4ebdb44cff8a6fb3c4eaa"; // Replace with your API key
 const BASE_URL = "https://api.openweathermap.org/data/2.5/weather";
 
 const getWeather = async (city) => {
   try {
-    //fetch data from the end point
+    //Fetch data from the end point
     const response = await fetch(
       `${BASE_URL}?q=${city}&appid=${API_KEY}&units=metric`
     );
 
-    //show error in case when no data is fetched
+    //Show error in case when no data is fetched
     if (!response.ok) {
       throw new Error("Failed to fetch weather data");
     }
