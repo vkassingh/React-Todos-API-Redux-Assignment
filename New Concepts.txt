@@ -1,0 +1,30 @@
+Redux
+Redux is a state management library to manage the global state of application. It helps to manage the global state by providing a single source of truth for state. 
+
+Global State
+The state that is shared among multiple components of an application
+
+Key components in Redux
+Store- it is a piece of code that contains the entire state of appllication. 
+Reducers- These are the functions that update the state of based on action
+Actions- Payload that trigger the state to change
+Dispatch- The function that sends action to the store. 
+
+Redux Workflow
+First you have to create a store using method like `configureStore`. Then define Reducers. Reducers are nothing just functions that update the state of any component. Then combine all the reducers. 
+Connent your application component to the store Finally wrap your application </App>  with the `Provider` component and pass the `store` as prop.
+
+useSelector hook
+It is used to select the desired state among the different states from redux store.
+Example- there are state like button state, form state, counter state.
+Then if you want to access the counter state, you will use useSelector hook.
+
+useDispatch 
+It is used to get Dispatch function. This dispatch function is used to send actions to the Redux store.
+
+createSlice in Redux Toolkit
+createSlice is function to create Redux slice. Redux slice is a piece of state and reducers.
+Reducer is function that will update the state of an component.
+
+trim() method
+The trim method removes whitespace from both end of a string. there are two variants: trimStart() and trimEnd()
