@@ -1,0 +1,4 @@
+Create TaskInput feature with a add Task button
+Create TaskList Component do display the todos.
+Implement the API integration.
+Setup Redux
